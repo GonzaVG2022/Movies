@@ -11,7 +11,7 @@ const ModelName = sequelize.define('modelName', {
         allowNull: false
     },
     synopsis: {
-        type: DataTypes.STRING,
+        type: DataTypes.TEXT,
         allowNull: false
     },
     releaseYear: {
