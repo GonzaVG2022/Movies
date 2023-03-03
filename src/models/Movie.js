@@ -15,7 +15,7 @@ const ModelName = sequelize.define('modelName', {
         allowNull: false
     },
     releaseYear: {
-        type: DataTypes.DATEONLY,
+        type: DataTypes.INTEGER,
         allowNull: false
     }
     
